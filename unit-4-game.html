@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+        
+<head>
+	<meta charset="UTF-8">
+    <title>Play Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+<body>
+    <div class="header">
+            <h1>Play Crystal Collector!</h1>
+    </div>
+    <div class="howToPlay">
+        <h3>How to play</h3>
+        </br>
+        <ol>
+
+            <li>Once the game starts, you'll be given a randomly generated number</li>
+            <li>Click a crystal and add points to your score!</li>
+			<li>If your score matches the random number, you win!</li>
+			<li>If you guess wrong, you lose!.</li>
+			<li>Values of crystals are hidden until clicked.</li>
+            <li>Each time when the game starts, the game will change the values of each crystal.</li>
+            <li>Below, there are four different crystals.</li>
+
+            <ul>
+
+              <li id="red-boi">Red</li>
+              <li id="green-boi">Green</li>
+              <li id="blue-boi">Blue</li>
+              <li id="yellow-boi">Yellow</li>
+
+            </ul>
+
+		</ol>
+    </div>
+	<div class="winAndLose">
+		<h2>Losses:
+			<span id= "numberOfLose"></span>
+			</br>
+			Wins: 
+			<span id= "numberOfWin"></span>
+		</h2>
+    </div>
+    <div class="numberToGet">
+            <h2>Number To Get:
+                <span class= "randomNumber" id= "randomNumber"></span>
+            </h2> 
+    </div>
+    <div class="finalSum">
+		    <h2>Your score:
+			    <span class="finalSum" id="finalSum"></span>
+            </h2>
+    </div>
+    <div class="shinyBois">
+        <img class="shinyBoiImage" id="red" src="/Users/godfatherbananaboatbillyiv/ucd-bootcamp/week-04/unit-4-game-master/assets/images/flat,1000x1000,075,f-4.jpg" value="3">
+        <img class="shinyBoiImage" id="green" src="/Users/godfatherbananaboatbillyiv/ucd-bootcamp/week-04/unit-4-game-master/assets/images/flat,1000x1000,075,f-2.jpg" value="6">
+        <img class="shinyBoiImage" id="blue" src="/Users/godfatherbananaboatbillyiv/ucd-bootcamp/week-04/unit-4-game-master/assets/images/flat,1000x1000,075,f.jpg" value="9">
+        <img class="shinyBoiImage" id="yellow" src="/Users/godfatherbananaboatbillyiv/ucd-bootcamp/week-04/unit-4-game-master/assets/images/flat,1000x1000,075,f-3.jpg" value="12">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>
